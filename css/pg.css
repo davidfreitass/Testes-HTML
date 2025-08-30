@@ -48,3 +48,14 @@
 #contatos{
     margin-bottom: 20px;
 }
+
+footer{
+    background: linear-gradient(90deg, rgb(255, 255, 255)0%, rgb(117, 241, 214), rgb(0, 255, 170));
+    margin-top: 40px;
+}
+
+.logo_footer{
+    height: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
