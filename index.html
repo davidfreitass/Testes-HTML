@@ -211,6 +211,13 @@
             </section>
 
             <section id="contatos">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Contatos</h3>
+                        </div>
+                    </div>
+                </div>
                 <div class="container-fluid col-md-6">
                     <form class="row g-1" action="https://formsubmit.co/david.s.freitas@ba.estudante.senai.br" method="POST" >
                         <div class="col-md-12">
@@ -219,23 +226,23 @@
                         </div>
                         <div class="col-md-12">
                             <label for="cep" class="form-label">CEP</label>
-                            <input type="text" name="cep" id="cep" class="form-control" maxlength="9" required>
+                            <input type="text" name="cep" id="cep" class="form-control" maxlength="9" required onblur="pesquisacep(this.value);">
                         </div>
                         <div class="col-md-12">
                             <label for="rua" class="form-label">Rua</label>
-                            <input type="text" class="form-control" required disabled>
+                            <input type="text" id="rua" class="form-control" required disabled>
                         </div>
                         <div class="col-md-12">
                             <label for="bairro" class="form-label">Bairro</label>
-                            <input type="text" class="form-control" required disabled>
+                            <input type="text" id="bairro" class="form-control" required disabled>
                         </div>
                         <div class="col-md-12">
                             <label for="cidade" class="form-label">Cidade</label>
-                            <input type="text" class="form-control" required disabled>
+                            <input type="text" id="cidade" class="form-control" required disabled>
                         </div>
                         <div class="col-md-12">
                             <label for="estado" class="form-label">Estado</label>
-                            <input type="text" class="form-control" required disabled>
+                            <input type="text" id="uf" class="form-control" required disabled>
                         </div>
                         <div class="col-md-12 d-grid gap-2">
                             <button for="submit" class="btn btn-primary">Enviar</button>
